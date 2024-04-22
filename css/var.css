@@ -1,0 +1,22 @@
+:root {
+    /* cores */
+    --bk-cor: #273037;
+    --cor-primaria: #456783;
+    --cor-secundaria: #949494;
+    --light: #C4C4C4;
+    --nav-cor: #E0E0E1;
+
+    /* font-body */
+
+    --h1-font: 'Roboto', sans-serif;
+    --sub-font: 'Roboto Serif', serif;
+    --noticia-font: 'Roboto Flex', sans-serif;
+
+    /* font-weihgt */
+
+    --font-bold: 400;
+    --font-semi-bold: 600;
+
+    /* box shadow */
+    --box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}

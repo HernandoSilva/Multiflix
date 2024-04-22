@@ -2,3 +2,41 @@
     padding: 0;
     margin: 0;
 }
+
+/* ============== BODY ============== */
+
+body{
+    background-color: var(--bk-cor);
+}
+
+/* imagem background */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/plano_fundo_bolinhas.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2; /* Define a opacidade da imagem de fundo */
+    z-index: -1; /* Coloca a imagem de fundo atrás de todos os outros elementos */
+}
+
+/* ============== REUTILIZAVEIS ============== */
+.padd-15{
+    padding-left: 15px   ;
+    padding-right: 15px   ;
+}
+
+.container {
+    max-width: 968px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
