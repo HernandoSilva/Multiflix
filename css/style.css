@@ -40,3 +40,21 @@ body::before {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* ============== NAVBAR ============== */
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    color: var(--nav-cor);
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav ul li{
+    margin-right: 100px;
+}
+.logo img{
+    max-width: 200px;
+}
