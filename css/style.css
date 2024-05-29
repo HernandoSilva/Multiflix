@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 /* ============== BODY ============== */
 
-body{
+body {
     background-color: var(--bk-cor);
 }
 
@@ -21,18 +21,20 @@ body::before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.2; /* Define a opacidade da imagem de fundo */
-    z-index: -1; /* Coloca a imagem de fundo atrás de todos os outros elementos */
+    opacity: 0.2;
+    /* Define a opacidade da imagem de fundo */
+    z-index: -1;
+    /* Coloca a imagem de fundo atrás de todos os outros elementos */
 }
 
 /* ============== REUTILIZAVEIS ============== */
-.padd-15{
-    padding-left: 15px   ;
-    padding-right: 15px   ;
+.padd-25 {
+
+    padding: 25px;
 }
 
 .container {
-    max-width: 968px;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -42,19 +44,37 @@ body::before {
 }
 
 /* ============== NAVBAR ============== */
-.navBar{
+
+
+.navBar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: var(--nav-cor);
-}
+    height: 15vh;
+    width: 100%;
 
-.nav ul{
+    margin-top: 2vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 48vw;    
+    
+    border-bottom: 2px solid var(--nav-cor);
+}
+.white-image {
+    filter: brightness(0) invert(1);
+}
+.nav ul {
     display: flex;
     list-style-type: none;
 }
-.nav ul li{
-    margin-right: 100px;
+.nav ul li {
+    margin-right: 5vw;
+    font-size: 25px;
+    font-family: var(--sub-font);
 }
-.logo img{
+.logo img {
     max-width: 200px;
 }
